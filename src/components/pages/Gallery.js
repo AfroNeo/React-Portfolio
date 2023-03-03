@@ -1,9 +1,10 @@
 import React from "react";
+import Project from "./Project";
 
-function Learn() {
+function Gallery() {
   return (
     <div>
-      <h1 className="text-center">hello</h1>
+      <h1 className="text-center">Gallery</h1>
       <p>
         Lorem ipsum dolor sit amet, est ut enim consequat. Nostrum fastidii partiendo sed ne, no
         mutat ludus aperiri mea, per in choro dolorem electram. Invidunt reprimique assueverit quo
@@ -13,4 +14,4 @@ function Learn() {
   );
 }
 
-export default Learn;
+export default Gallery;

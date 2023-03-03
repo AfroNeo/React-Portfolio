@@ -5,6 +5,8 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Header from './components/pages/Header';
 import Contact from './components/pages/Contact';
+import Project from './components/pages/Project';
+
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="header" element={<Header />} />
+          <Route path="project" element={<Project />} />
+
           {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />
         </Routes>
