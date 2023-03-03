@@ -32,7 +32,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Blog
+          Header
         </NavLink>
       </li>
       <li className="nav-item">
