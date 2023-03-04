@@ -35,8 +35,6 @@ function NavTabs() {
           Header
         </NavLink>
       </li>
-
-
       <li className="nav-item">
         <NavLink
           to="project"

@@ -4,7 +4,7 @@ import Contact from "./Contact"
 
 function Home() {
   return (
-    <div>
+    <div style={{backgroundColor: "blue"}}>
       <About />
       <Contact />
     </div>

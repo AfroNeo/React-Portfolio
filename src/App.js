@@ -5,7 +5,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Header from './components/pages/Header';
 import Contact from './components/pages/Contact';
-import Project from './components/pages/Project';
+import Gallery from './components/pages/Gallery';
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="header" element={<Header />} />
-          <Route path="project" element={<Project />} />
+          <Route path="project" element={<Gallery />} />
 
           {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />
