@@ -8,22 +8,24 @@ import Contact from './components/pages/Contact';
 import Gallery from './components/pages/Gallery';
 
 
+
+
 function App() {
   return (
     <Router>
       <div>
         <NavTabs />
         {/* Wrap Route elements in a Routes component */}
-        <Routes>
+        <Routes basename="react-portfolio">
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="header" element={<Header />} />
-          <Route path="project" element={<Gallery />} />
+          <Route path="/react-portfolio/" element={<Home />} />
+          <Route path="/react-portfolio/about" element={<About />} />
+          <Route path="/react-portfolio/header" element={<Header />} />
+          <Route path="/react-portfolio/project" element={<Gallery />} />
 
           {/* Define a route that will have descendant routes */}
-          <Route path="contact/*" element={<Contact />} />
+          <Route path="/react-portfolio/contact/*" element={<Contact />} />
         </Routes>
       </div>
     </Router>

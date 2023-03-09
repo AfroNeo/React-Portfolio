@@ -10,10 +10,12 @@ function Gallery() {
     <>
       <div>
         <h1 className="text-center">Gallery</h1>
+        
         <p>
-          Lorem ipsum dolor sit amet, est ut enim consequat. Nostrum fastidii partiendo sed ne, no
-          mutat ludus aperiri mea, per in choro dolorem electram. Invidunt reprimique assueverit quo
-          ne, eruditi graecis pro ut. Usu ut diceret scaevola evertitur, appareat voluptatibus ad vel.
+          Welcome to my Gallery of past Projects I have worked on or been involved in. 
+          <br></br>
+          <br></br>
+          <strong>Click on the thumbnail for more details:</strong>
         </p>
       </div>
       <div className="row justify-content-evenly">
